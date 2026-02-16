@@ -1,0 +1,53 @@
+/* 1. Sets the overall page font and background */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+/* 2. Styles "Hobbies" title */
+h1 {
+    color: maroon;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* 3. Styles subheadings like "Gaming" and "Toys" */
+h2 {
+    color: darkblue;
+    border-bottom: 4px solid darkblue;
+    padding-bottom: 5px;
+}
+
+/* 4. Adds spacing around paragraphs */
+p {
+    margin-bottom: 15px;
+    font-size: 20px;
+    /* Increased font size for better readability */
+}
+
+/* Styles 'Back to Top' link */
+a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none; /* Removes underline */
+    font-weight: bold;
+}
+
+/* Add a hover effect for better visual appeal */
+a:hover {
+    color: maroon;
+    text-decoration: underline;
+}
+
+/* Style the bold text in paragraphs */
+strong {
+    color: darkred;
+}
+
+em {
+    color:#555;
+    font-style: italic;
+    background-color: #ffffcc; /* Light yellow background for emphasis */
+}
